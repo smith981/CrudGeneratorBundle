@@ -11,7 +11,7 @@
  * file that was distributed with this source code.
  */
 
-namespace JordiLlonch\Bundle\CrudGeneratorBundle\Tests\Command;
+namespace Smith981\CrudGeneratorBundle\Tests\Command;
 
 use Sensio\Bundle\GeneratorBundle\Tests\Command\GenerateDoctrineCrudCommandTest;
 use Sensio\Bundle\GeneratorBundle\Tests\Command\GenerateCommandTest;
@@ -77,7 +77,7 @@ class JordiLlonchCrudCommandTest extends GenerateCommandTest
     protected function getCommand($generator, $input)
     {
         $command = $this
-            ->getMockBuilder('JordiLlonch\Bundle\CrudGeneratorBundle\Command\JordiLlonchCrudCommand')
+            ->getMockBuilder('Smith981\CrudGeneratorBundle\Command\JordiLlonchCrudCommand')
 //            ->getMockBuilder('Sensio\Bundle\GeneratorBundle\Command\GenerateDoctrineCrudCommand')
             ->setMethods(array('getEntityMetadata'))
             ->getMock()
@@ -131,7 +131,7 @@ class JordiLlonchCrudCommandTest extends GenerateCommandTest
     protected function getFormFilterGenerator()
     {
         return $this
-            ->getMockBuilder('JordiLlonch\Bundle\CrudGeneratorBundle\Generator\DoctrineFormFilterGenerator')
+            ->getMockBuilder('Smith981\CrudGeneratorBundle\Generator\DoctrineFormFilterGenerator')
             ->disableOriginalConstructor()
             ->setMethods(array('generate'))
             ->getMock()

@@ -11,7 +11,7 @@
  * file that was distributed with this source code.
  */
 
-namespace JordiLlonch\Bundle\CrudGeneratorBundle\Tests\Generator;
+namespace Smith981\CrudGeneratorBundle\Tests\Generator;
 
 use Sensio\Bundle\GeneratorBundle\Tests\Generator\DoctrineCrudGeneratorTest;
 use Sensio\Bundle\GeneratorBundle\Generator\DoctrineCrudGenerator;

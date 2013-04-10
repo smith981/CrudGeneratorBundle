@@ -5,13 +5,11 @@
  *
  * It is based/extended from SensioGeneratorBundle
  *
- * (c) Jordi Llonch <llonch.jordi@gmail.com>
- *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace JordiLlonch\Bundle\CrudGeneratorBundle\Command;
+namespace Smith981\CrudGeneratorBundle\Command;
 
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
@@ -19,9 +17,9 @@ use Sensio\Bundle\GeneratorBundle\Command\Validators;
 use Sensio\Bundle\GeneratorBundle\Command\GenerateDoctrineCrudCommand;
 use Sensio\Bundle\GeneratorBundle\Generator\DoctrineCrudGenerator;
 use Sensio\Bundle\GeneratorBundle\Generator\DoctrineFormGenerator;
-use JordiLlonch\Bundle\CrudGeneratorBundle\Generator\DoctrineFormFilterGenerator;
+use Smith981\CrudGeneratorBundle\Generator\DoctrineFormFilterGenerator;
 
-class JordiLlonchCrudCommand extends GenerateDoctrineCrudCommand
+class Smith981CrudCommand extends GenerateDoctrineCrudCommand
 {
     protected $generator;
     protected $formGenerator;
@@ -58,7 +56,7 @@ class JordiLlonchCrudCommand extends GenerateDoctrineCrudCommand
     protected function interact(InputInterface $input, OutputInterface $output)
     {
         $dialog = $this->getDialogHelper();
-        $dialog->writeSection($output, 'JordiLlonchCrudGeneratorBundle');
+        $dialog->writeSection($output, 'Smith981CrudGeneratorBundle');
 
         parent::interact($input, $output);
     }
@@ -68,8 +66,8 @@ class JordiLlonchCrudCommand extends GenerateDoctrineCrudCommand
 
         $myResdir =$this->getContainer()->getParameter('kernel.root_dir');
         if (null === $this->generator) {
-            if (file_exists($myResdir.'/Resources/JordiLlonchCrudGeneratorBundle/skeleton/crud')) {
-                $this->generator = new DoctrineCrudGenerator($this->getContainer()->get('filesystem'), $myResdir.'/Resources/JordiLlonchCrudGeneratorBundle/skeleton/crud');
+            if (file_exists($myResdir.'/Resources/Smith981CrudGeneratorBundle/skeleton/crud')) {
+                $this->generator = new DoctrineCrudGenerator($this->getContainer()->get('filesystem'), $myResdir.'/Resources/Smith981CrudGeneratorBundle/skeleton/crud');
             }else{
                 $this->generator = new DoctrineCrudGenerator($this->getContainer()->get('filesystem'), __DIR__.'/../Resources/skeleton/crud');
             }

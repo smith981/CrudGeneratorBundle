@@ -11,10 +11,10 @@
  * file that was distributed with this source code.
  */
 
-namespace JordiLlonch\Bundle\CrudGeneratorBundle\Tests\Generator;
+namespace Smith981\CrudGeneratorBundle\Tests\Generator;
 
 use Sensio\Bundle\GeneratorBundle\Tests\Generator\GeneratorTest;
-use JordiLlonch\Bundle\CrudGeneratorBundle\Generator\DoctrineFormFilterGenerator;
+use Smith981\CrudGeneratorBundle\Generator\DoctrineFormFilterGenerator;
 
 class JordiLlonchFormFilterGeneratorTest extends GeneratorTest
 {

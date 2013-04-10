@@ -1,5 +1,5 @@
 parameters:
-#    jordi_llonch_crud_generator.example.class: JordiLlonch\Bundle\CrudGeneratorBundle\Example
+#    jordi_llonch_crud_generator.example.class: Smith981\CrudGeneratorBundle\Example
 
 services:
 #    jordi_llonch_crud_generator.example:

@@ -11,7 +11,7 @@
  * file that was distributed with this source code.
  */
 
-namespace JordiLlonch\Bundle\CrudGeneratorBundle\Generator;
+namespace Smith981\CrudGeneratorBundle\Generator;
 
 
 use Symfony\Component\Filesystem\Filesystem;

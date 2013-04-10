@@ -1,3 +1,3 @@
-JordiLlonchCrudGeneratorBundle_homepage:
+Smith981CrudGeneratorBundle_homepage:
     pattern:  /hello/{name}
-    defaults: { _controller: JordiLlonchCrudGeneratorBundle:Default:index }
+    defaults: { _controller: Smith981CrudGeneratorBundle:Default:index }

@@ -45,7 +45,7 @@ Execute:
 Add it to the `AppKernel.php` class:
 
     new Lexik\Bundle\FormFilterBundle\LexikFormFilterBundle(),
-    new JordiLlonch\Bundle\CrudGeneratorBundle\JordiLlonchCrudGeneratorBundle(),
+    new Smith981\CrudGeneratorBundle\Smith981CrudGeneratorBundle(),
 
 and:
 

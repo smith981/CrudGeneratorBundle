@@ -1,6 +1,6 @@
 <?php
 
-namespace JordiLlonch\Bundle\CrudGeneratorBundle\DependencyInjection;
+namespace Smith981\CrudGeneratorBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\Config\FileLocator;

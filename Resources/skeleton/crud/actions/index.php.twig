@@ -95,8 +95,8 @@
         $view = new TwitterBootstrapView();
         $pagerHtml = $view->render($pagerfanta, $routeGenerator, array(
             'proximity' => 3,
-            'prev_message' => $translator->trans('views.index.pagprev', array(), 'JordiLlonchCrudGeneratorBundle'),
-            'next_message' => $translator->trans('views.index.pagnext', array(), 'JordiLlonchCrudGeneratorBundle'),
+            'prev_message' => $translator->trans('views.index.pagprev', array(), 'Smith981CrudGeneratorBundle'),
+            'next_message' => $translator->trans('views.index.pagnext', array(), 'Smith981CrudGeneratorBundle'),
         ));
 
         return array($entities, $pagerHtml);
