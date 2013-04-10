@@ -22,7 +22,7 @@
         "psr-0": { "Smith981\\CrudGeneratorBundle": "" },
         "files": [ "Smith981CrudGeneratorBundle.php", "Command/Smith981CrudCommand.php" ]
     },
-    "target-dir": "Smith981/Bundle/CrudGeneratorBundle",
+    "target-dir": "Smith981/CrudGeneratorBundle",
     "extra": {
         "branch-alias": {
             "dev-master": "2.2.x-dev"
