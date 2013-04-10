@@ -20,7 +20,7 @@
     "minimum-stability": "stable",
     "autoload": {
         "psr-0": { "Smith981\\CrudGeneratorBundle": "" },
-        "files": [ "Smith981CrudGeneratorBundle.php", "Smith981\\CrudGeneratorBundle\\Command\\Smith981CrudCommand" ]
+        "files": [ "Smith981CrudGeneratorBundle.php", "Smith981\\CrudGeneratorBundle\\Command\\Smith981CrudCommand.php" ]
     },
     "target-dir": "Smith981/Bundle/CrudGeneratorBundle",
     "extra": {
